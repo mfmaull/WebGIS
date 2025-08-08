@@ -1,0 +1,4047 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-08-05T04:14:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120838420",
+        "access:roof": "no",
+        "addr:full": "Jl. Kyai Haji Ali Maksum Krapyak",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Umum Veteran Patmasuri",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3599425,
+          -7.8299971
+        ]
+      },
+      "id": "way/120838420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/366465707",
+        "access:roof": "yes",
+        "addr:full": "Jalan Jendral Sudirman",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "name": "RSU PKU Muhammadiyah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3303439,
+          -7.8869242
+        ]
+      },
+      "id": "way/366465707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374397543",
+        "access:roof": "no",
+        "addr:city": "Bantul",
+        "addr:full": "Jalan Soragan No.14, Soragan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+        "addr:housenumber": "4",
+        "addr:postcode": "55182",
+        "addr:street": "Soragan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "healthcare": "hospital",
+        "name": "RS Khusus Ibu dan Anak Adinda",
+        "operator": "Private",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3486988,
+          -7.7854417
+        ]
+      },
+      "id": "way/374397543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/418521933",
+        "access:roof": "yes",
+        "addr:full": "Jalan Tino Sidin No.390, Kadipiro, Baru, Kdipiro, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "building:walls": "concrete",
+        "capacity:persons": "100-250",
+        "man_made": "clinic",
+        "name": "RS Khusus Ibu dan Anak Kahyangan",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3449631,
+          -7.7982805
+        ]
+      },
+      "id": "way/418521933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/442522324",
+        "access:roof": "yes",
+        "addr:full": "Jl. Wates KM.12, Argorejo, Sedayu, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Sedayu 2",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.256557,
+          -7.81679
+        ]
+      },
+      "id": "way/442522324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/447657872",
+        "addr:city": "Srihardono",
+        "addr:postcode": "55771",
+        "addr:street": "Jalan Piring, Srihardono",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "RS Terpadu Penyandang Disabilitas",
+        "operator:type": "government",
+        "phone": "+62 274 6464177",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3445442,
+          -7.9584149
+        ]
+      },
+      "id": "way/447657872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/458344310",
+        "addr:full": "Jalan Panembahan Senopati",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "cardiology",
+        "name": "Rumah Sakit Khusus Paru Respira",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3202573,
+          -7.9056471
+        ]
+      },
+      "id": "way/458344310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/464893980",
+        "access:roof": "no",
+        "addr:full": "Jalan Srandakan No 96, Trimurti, Srandakan, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Srandakan",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2507441,
+          -7.9381834
+        ]
+      },
+      "id": "way/464893980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/505083418",
+        "access:roof": "no",
+        "addr:full": "Dukuh Pedes",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Posyandu Balita Dahlia",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2704711,
+          -7.8142209
+        ]
+      },
+      "id": "way/505083418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/505188215",
+        "access:roof": "no",
+        "addr:full": "Jalan Panggang",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Sedayu I",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2764403,
+          -7.8017318
+        ]
+      },
+      "id": "way/505188215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/505226943",
+        "addr:city": "Bantul",
+        "addr:housenumber": "12",
+        "addr:postcode": "55753",
+        "addr:street": "Wates",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "depth;humanistic;child_psychiatry",
+        "name": "Biro Psikologi Laksita Educare Jogja",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2594507,
+          -7.8037352
+        ]
+      },
+      "id": "way/505226943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/529865918",
+        "access:roof": "yes",
+        "addr:full": "Jalan Parangtritis",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Rusdi Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.317882,
+          -8.0064769
+        ]
+      },
+      "id": "way/529865918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/529870008",
+        "access:roof": "no",
+        "addr:full": "jl. parangtritis",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Pertama",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3204183,
+          -8.013702
+        ]
+      },
+      "id": "way/529870008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530026823",
+        "access:roof": "no",
+        "addr:full": "Jalan Wonosari, Banguntapan, Bantul, Yogyakarta",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "capacity": "8",
+        "healthcare": "pharmacy",
+        "name": "Apotek Fiki",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4051143,
+          -7.8108871
+        ]
+      },
+      "id": "way/530026823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530192223",
+        "access:roof": "no",
+        "addr:full": "jl. parangtritis km. 20",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Kretek",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3188605,
+          -7.9725037
+        ]
+      },
+      "id": "way/530192223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530555915",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3504717,
+          -7.9241138
+        ]
+      },
+      "id": "way/530555915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556106",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3506655,
+          -7.9241483
+        ]
+      },
+      "id": "way/530556106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556107",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.350635,
+          -7.9242498
+        ]
+      },
+      "id": "way/530556107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556109",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3505932,
+          -7.9241398
+        ]
+      },
+      "id": "way/530556109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556112",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3505682,
+          -7.9242476
+        ]
+      },
+      "id": "way/530556112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556114",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3505014,
+          -7.9242307
+        ]
+      },
+      "id": "way/530556114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556117",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3504926,
+          -7.9243253
+        ]
+      },
+      "id": "way/530556117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556120",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Klinik Rawat Inap Patalan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3504382,
+          -7.9242311
+        ]
+      },
+      "id": "way/530556120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530556194",
+        "access:roof": "no",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3506987,
+          -7.9234888
+        ]
+      },
+      "id": "way/530556194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530659372",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Pharmacy Purwanto Tradional Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2723624,
+          -7.9680997
+        ]
+      },
+      "id": "way/530659372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530721181",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Apotek K24",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3327957,
+          -7.8817717
+        ]
+      },
+      "id": "way/530721181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530747675",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "name": "Apotek Astari",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.352541,
+          -7.8886968
+        ]
+      },
+      "id": "way/530747675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530821004",
+        "access:roof": "no",
+        "addr:full": "Salam, Triharjo, Pandak, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "steel_frame",
+        "capacity:persons": "50-100",
+        "healthcare": "clinic",
+        "name": "Puskesmas Pandak II",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2841804,
+          -7.9183038
+        ]
+      },
+      "id": "way/530821004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530826170",
+        "addr:full": "Jl. Raya Berbah No.86, Banguntapan, Bantul, Daerah Istimewa Yogyakarta 55197",
+        "amenity": "pharmacy",
+        "building": "pharmacy",
+        "name": "Apotek Setya Budi Farma",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4168034,
+          -7.8025662
+        ]
+      },
+      "id": "way/530826170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/531012405",
+        "amenity": "doctors",
+        "building": "yes",
+        "name": "Bidan Estu Tri Haryati",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.287303,
+          -7.9827129
+        ]
+      },
+      "id": "way/531012405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534386653",
+        "access:roof": "no",
+        "addr:full": "jl. Pleret - Patuk",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "cement",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tin",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Praktek Dokter dr. Latifatun Nisa",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4282785,
+          -7.8822579
+        ]
+      },
+      "id": "way/534386653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534404242",
+        "access:roof": "no",
+        "addr:full": "Jalan Jejeran - Pleret",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "glass",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Sehat",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.395699,
+          -7.8691209
+        ]
+      },
+      "id": "way/534404242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534916811",
+        "access:roof": "no",
+        "addr:full": "Jalan Raya Pleret KM 4 Kauman",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tin",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "healthcare": "clinic",
+        "name": "Klinik Grha Permata",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4082274,
+          -7.8649773
+        ]
+      },
+      "id": "way/534916811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534916930",
+        "access:roof": "no",
+        "addr:full": "Kedaton RT 4 Pleret",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "cement",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tin",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Kedaton",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4055728,
+          -7.8712949
+        ]
+      },
+      "id": "way/534916930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534927118",
+        "access:roof": "no",
+        "addr:full": "Karasan, Palbapang Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Pratama \"Wiwid\"",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3212266,
+          -7.9024076
+        ]
+      },
+      "id": "way/534927118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/535953749",
+        "access:roof": "yes",
+        "addr:full": "Jl. Ring Road Selatan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Rumah Sakit Khusus Bedah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3604094,
+          -7.8341552
+        ]
+      },
+      "id": "way/535953749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/536311917",
+        "access:roof": "no",
+        "addr:full": "Jalan Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Cito Laboratorium Klinik",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3357884,
+          -7.8752886
+        ]
+      },
+      "id": "way/536311917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610090451",
+        "access:roof": "no",
+        "addr:full": "Jl. Mondorakan , Banguntapan",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Jagalan",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3958442,
+          -7.8274588
+        ]
+      },
+      "id": "way/610090451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/610750356",
+        "access:roof": "no",
+        "addr:full": "dusun sayangan, jagalan",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "cement",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tin",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Posyandu Kuntum Harapan",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3972781,
+          -7.8278823
+        ]
+      },
+      "id": "way/610750356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/611358959",
+        "access:roof": "no",
+        "addr:full": "Jl. Sutopadan no.128 A, Ngestiharjo, Kasihan, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "asbestos",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Karunia Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3466807,
+          -7.7934521
+        ]
+      },
+      "id": "way/611358959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/611453489",
+        "access:roof": "no",
+        "addr:full": "Karangsari,Tegal tandan,Banguntapan,Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Banguntapan 3",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4044523,
+          -7.8078383
+        ]
+      },
+      "id": "way/611453489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612876059",
+        "access:roof": "no",
+        "addr:full": "Jalan Parangtritis Km. 24",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Dharma Husada",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3149264,
+          -7.9974041
+        ]
+      },
+      "id": "way/612876059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612879603",
+        "access:roof": "no",
+        "addr:full": "Jalan Makam Raja",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Imogiri I",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3802131,
+          -7.9198724
+        ]
+      },
+      "id": "way/612879603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612885131",
+        "access:roof": "no",
+        "addr:full": "Jalan Kolonel Sugiono 13 Ringinharjo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik As-Syifa",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3178247,
+          -7.8878632
+        ]
+      },
+      "id": "way/612885131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612941528",
+        "access:roof": "no",
+        "addr:full": "kebanggan meditasinya sanden",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Prima Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2562926,
+          -7.975878
+        ]
+      },
+      "id": "way/612941528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612975971",
+        "access:roof": "no",
+        "addr:full": "Jalan Denokan Trimulyo Jetis Buntul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Jetis 1",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3751753,
+          -7.8977919
+        ]
+      },
+      "id": "way/612975971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612996876",
+        "access:roof": "no",
+        "addr:full": "tekik, temuwuh, dlingo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Avicena",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4694024,
+          -7.9222605
+        ]
+      },
+      "id": "way/612996876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613067071",
+        "access:roof": "no",
+        "addr:full": "jln wonosari",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Piyungan Bantul",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4584522,
+          -7.8314195
+        ]
+      },
+      "id": "way/613067071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613178702",
+        "access:roof": "no",
+        "addr:full": "munggang sitimulyo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Gemilang Medika",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.438587,
+          -7.8421825
+        ]
+      },
+      "id": "way/613178702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613180674",
+        "access:roof": "no",
+        "addr:full": "balaidesa tirtonirmolo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Kasihan II",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3450649,
+          -7.8289546
+        ]
+      },
+      "id": "way/613180674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613187011",
+        "access:roof": "no",
+        "addr:full": "Jalan Bantul KM 9",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Rahma Medika",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3368355,
+          -7.8717867
+        ]
+      },
+      "id": "way/613187011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613195750",
+        "access:roof": "no",
+        "addr:full": "segoroyoso-sitimulyo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Jamii Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4413842,
+          -7.8443013
+        ]
+      },
+      "id": "way/613195750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613197824",
+        "access:roof": "no",
+        "addr:full": "padokan lor, tirtonirmolo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Posyandu Menur",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3419792,
+          -7.8275139
+        ]
+      },
+      "id": "way/613197824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613200233",
+        "access:roof": "no",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2771788,
+          -7.8223484
+        ]
+      },
+      "id": "way/613200233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613201114",
+        "access:roof": "no",
+        "addr:full": "Jalan Parangtritis KM 7 Bangi, Timbul Harjo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Sewon 1",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3533882,
+          -7.8608887
+        ]
+      },
+      "id": "way/613201114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613223139",
+        "access:roof": "no",
+        "addr:full": "tirtonirmolo, menayu lor",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "11",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Poskokesdes",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3405832,
+          -7.8240622
+        ]
+      },
+      "id": "way/613223139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613238782",
+        "addr:city": "Bantul",
+        "addr:district": "Kasihan",
+        "addr:province": "DIY",
+        "addr:subdistrict": "Bangunjiwo",
+        "addr:unit": "Jalan Bibis",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;vaccination;emergency;dentistry",
+        "name": "Puskesmas Kasihan 1",
+        "operator": "Ministry of Health",
+        "operator:en": "Ministry of Health",
+        "operator:id": "Kementerian Kesehatan",
+        "operator:type": "government",
+        "operator:wikidata": "Q12490745",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3121591,
+          -7.8383602
+        ]
+      },
+      "id": "way/613238782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613238807",
+        "access:roof": "no",
+        "addr:full": "Jl Jalan Bilbis km 8 ngentak Bangunjiwo Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Kasihan 1",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3121149,
+          -7.8369572
+        ]
+      },
+      "id": "way/613238807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613247532",
+        "access:roof": "no",
+        "addr:full": "purworejo rt 04 wonolelo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "wood",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "posyandu harapan santoso",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4371765,
+          -7.888603
+        ]
+      },
+      "id": "way/613247532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613268831",
+        "access:roof": "no",
+        "addr:full": "Mojohuro,Sriharjo,Imogiri,Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Imogiri II",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.372687,
+          -7.9447298
+        ]
+      },
+      "id": "way/613268831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613294446",
+        "access:roof": "no",
+        "addr:full": "Jalan Jayan",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu Kebonagung",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3699715,
+          -7.933266
+        ]
+      },
+      "id": "way/613294446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613351975",
+        "access:roof": "no",
+        "addr:full": "Mojolegi, karang tengah, imogiri, bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Pembantu Karang Tengah",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3865919,
+          -7.9351695
+        ]
+      },
+      "id": "way/613351975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613364464",
+        "access:roof": "no",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2816815,
+          -7.8130965
+        ]
+      },
+      "id": "way/613364464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613460579",
+        "access:roof": "no",
+        "addr:full": "genting tirtomulyo kretek",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2972001,
+          -7.9704491
+        ]
+      },
+      "id": "way/613460579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613465093",
+        "access:roof": "no",
+        "addr:full": "jl koripan 1 dlingo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Dlingo I",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4651979,
+          -7.9338158
+        ]
+      },
+      "id": "way/613465093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613485323",
+        "access:roof": "no",
+        "addr:full": "jadan tamantirto kasihan bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Pembantu Kasihan",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3266416,
+          -7.8253443
+        ]
+      },
+      "id": "way/613485323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613486862",
+        "access:roof": "no",
+        "addr:full": "Pulokadang, Canden, Jetis, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Pratama Pulokadang",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3689071,
+          -7.9127662
+        ]
+      },
+      "id": "way/613486862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613534683",
+        "access:roof": "no",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "healthcare": "clinic",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3016049,
+          -7.9015056
+        ]
+      },
+      "id": "way/613534683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613578915",
+        "access:roof": "no",
+        "addr:full": "iroyudan, guwosari, pajangan, bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "steel_frame",
+        "capacity:persons": "100-250",
+        "name": "Klinik Pratama Cahaya Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3140638,
+          -7.8789552
+        ]
+      },
+      "id": "way/613578915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613600430",
+        "access:roof": "no",
+        "addr:full": "Jalan Segoroyoso",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Ash Shiddiq",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4145234,
+          -7.8790252
+        ]
+      },
+      "id": "way/613600430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613601699",
+        "amenity": "clinic",
+        "building": "yes",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3736217,
+          -7.9263303
+        ]
+      },
+      "id": "way/613601699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613619071",
+        "access:roof": "no",
+        "addr:full": "Pancuran,Terong,Dlingo Bantul,Yogyakarta",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "asbestos",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Pratama Umum Mitra Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4687925,
+          -7.9001694
+        ]
+      },
+      "id": "way/613619071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613619732",
+        "access:roof": "no",
+        "addr:full": "guyangan, wonolelo,pleret",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Pembantu Wonolelo",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4298585,
+          -7.8823829
+        ]
+      },
+      "id": "way/613619732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613622069",
+        "access:roof": "no",
+        "addr:full": "Sorobayan Gadingsari",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Amanah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2568213,
+          -7.9708427
+        ]
+      },
+      "id": "way/613622069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613641332",
+        "access:roof": "no",
+        "addr:full": "dusun bengos kenthi murtigading",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Posyandu Puspa Indah",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2601013,
+          -7.9700193
+        ]
+      },
+      "id": "way/613641332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613641813",
+        "access:roof": "no",
+        "addr:full": "jalan raya sanden puncanganom bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Sanden",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2650512,
+          -7.9667282
+        ]
+      },
+      "id": "way/613641813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613665491",
+        "access:roof": "no",
+        "addr:full": "Sungapan Dukuh",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Bunga Arsari",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2463483,
+          -7.8530683
+        ]
+      },
+      "id": "way/613665491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613669911",
+        "access:roof": "no",
+        "addr:full": "Jalan Srandakan Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "healthcare": "clinic",
+        "name": "Klinik Pratama",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2599056,
+          -7.9359603
+        ]
+      },
+      "id": "way/613669911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613675846",
+        "access:roof": "no",
+        "addr:full": "pokoh 1 dlingo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Posyandu Lestari Pokoh I",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4729727,
+          -7.9477897
+        ]
+      },
+      "id": "way/613675846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613692574",
+        "access:roof": "no",
+        "addr:full": "Singgelo, Poncosari, Srandakan, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "cement",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "healthcare": "clinic",
+        "name": "Puskesmas Pembantu Desa Poncosari",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.236976,
+          -7.9609142
+        ]
+      },
+      "id": "way/613692574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/613694853",
+        "access:roof": "no",
+        "addr:full": "Jalan Raya Sanden",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Praktek Dokter Gigi Sekar Farma",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2684797,
+          -7.9492835
+        ]
+      },
+      "id": "way/613694853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614420034",
+        "access:roof": "no",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3603613,
+          -7.9068886
+        ]
+      },
+      "id": "way/614420034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614422561",
+        "access:roof": "no",
+        "addr:full": "Pencitrejo,Terong,Dlingo,Bantul,Yogyakarta",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Dlingo II",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4526249,
+          -7.8802458
+        ]
+      },
+      "id": "way/614422561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614432230",
+        "access:roof": "yes",
+        "addr:full": "Jalan Imogiri Timur KM 11.5 Trimulyo, Jetis",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Nur Hidayah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3876091,
+          -7.8872808
+        ]
+      },
+      "id": "way/614432230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614432401",
+        "access:roof": "no",
+        "addr:full": "Jalan Imogiri Timur KM. 11.5",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Nur Hidayah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3879854,
+          -7.8862197
+        ]
+      },
+      "id": "way/614432401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614664904",
+        "access:roof": "no",
+        "addr:full": "JALAN PARANGTRITIS KM 5",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Kartika",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3629575,
+          -7.8418014
+        ]
+      },
+      "id": "way/614664904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614725256",
+        "access:roof": "no",
+        "addr:full": "jln jolosutro",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "healthcare": "clinic",
+        "name": "Poskokesdes Jolosutro",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4652703,
+          -7.8530626
+        ]
+      },
+      "id": "way/614725256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614727955",
+        "access:roof": "no",
+        "addr:full": "Mangunan,Dlingo,Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu Mangunan",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4286917,
+          -7.9318873
+        ]
+      },
+      "id": "way/614727955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614745700",
+        "access:roof": "no",
+        "addr:full": "Jragan 1, Poncosari, Srandakan, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu 2",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2363196,
+          -7.9721818
+        ]
+      },
+      "id": "way/614745700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614753403",
+        "access:roof": "no",
+        "addr:full": "Ds Kanutan Sumbermulyo, Kec Bambanglipuro",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Mitra Husada Mandiri",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3083539,
+          -7.9234047
+        ]
+      },
+      "id": "way/614753403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614754398",
+        "access:roof": "no",
+        "addr:full": "Jalan Ir. Juanda",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Istiazah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3401451,
+          -7.9012413
+        ]
+      },
+      "id": "way/614754398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615080968",
+        "access:roof": "no",
+        "addr:full": "jl. samas km. 19.9",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Bambanglipuro",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2928046,
+          -7.9557664
+        ]
+      },
+      "id": "way/615080968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615083723",
+        "access:roof": "no",
+        "addr:full": "Jalan Nogosari II Wukirsari",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu Wukirsari",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4092474,
+          -7.9051823
+        ]
+      },
+      "id": "way/615083723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615104517",
+        "access:roof": "no",
+        "addr:full": "Banjarharjo I,Muntuk,Dlingo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu Muntuk",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.441235,
+          -7.9100552
+        ]
+      },
+      "id": "way/615104517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615155081",
+        "access:roof": "no",
+        "addr:full": "Jalan Imogiri Timur KM. 9 Jati",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Pleret",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3897191,
+          -7.8642301
+        ]
+      },
+      "id": "way/615155081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616233102",
+        "access:roof": "no",
+        "addr:full": "Dusun Pedes",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu Argomulyo",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2737734,
+          -7.8212007
+        ]
+      },
+      "id": "way/616233102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616249114",
+        "addr:city": "Bantul",
+        "addr:full": "Jalan Dr. Wahidin Sudiro Husodo, Area Sawah, Trirenggo, Kec. Bantul, Bantul, Daerah Istimewa Yogyakarta 55714",
+        "addr:postcode": "55714",
+        "addr:street": "Jalan Dokter Wahidin Sudiro Husodo",
+        "amenity": "hospital",
+        "description": "Hasil pemetaan rumah sakit rujukan COVID19 di Provinsi DIY. -Indonesia Hospital Mapping Project-",
+        "email": "rsudps@bantulkab.go.id",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "RSUD Panembahan Senopati",
+        "operator": "Pemerintah Kabupaten Bantul",
+        "operator:type": "government",
+        "phone": "+62 274 367386",
+        "source": "survey",
+        "website": "https://rsudps.bantulkab.go.id/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3379658,
+          -7.8924266
+        ]
+      },
+      "id": "way/616249114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616482524",
+        "access:roof": "no",
+        "addr:full": "Klangon, Argosari, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "cement",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "wood_frame",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu Argosari",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2571788,
+          -7.8126226
+        ]
+      },
+      "id": "way/616482524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616482528",
+        "access:roof": "no",
+        "addr:full": "Jalan Sedayu-Gresikan",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "steel_frame",
+        "capacity:persons": "50-100",
+        "name": "IDI Pajangan",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2640622,
+          -7.8698276
+        ]
+      },
+      "id": "way/616482528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616482536",
+        "access:roof": "no",
+        "addr:full": "Selo Gedong, Argodadi, Sedayu, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "wood_frame",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Pembantu Desa Argodadi",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2497015,
+          -7.8462647
+        ]
+      },
+      "id": "way/616482536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616486675",
+        "access:roof": "no",
+        "addr:full": "Dusun Geblag, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Bantul II",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3271926,
+          -7.8715676
+        ]
+      },
+      "id": "way/616486675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616517205",
+        "access:roof": "no",
+        "addr:full": "Jalan Pajangan Jetis Sendangsari",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Pajangan",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2896861,
+          -7.893337
+        ]
+      },
+      "id": "way/616517205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616517916",
+        "access:roof": "no",
+        "addr:full": "Jalan Pemuda",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "RSKIA Ummi Khasanah",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3306238,
+          -7.8785699
+        ]
+      },
+      "id": "way/616517916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616538834",
+        "access:roof": "no",
+        "addr:full": "Jalan Wahid Hasyim",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Puskesmas Bantul I",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3218553,
+          -7.9035505
+        ]
+      },
+      "id": "way/616538834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616838266",
+        "access:roof": "yes",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Panti Hafara",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3956812,
+          -7.8861604
+        ]
+      },
+      "id": "way/616838266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616854238",
+        "access:roof": "yes",
+        "addr:full": "Babakan, Poncosari, Srandakan",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Setia Budi",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2268567,
+          -7.9735862
+        ]
+      },
+      "id": "way/616854238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616862643",
+        "access:roof": "no",
+        "addr:full": "Jalan Parangtritis, Sulang Kidul, Patalan, Jetis, Bantul, DIY",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Puskesmas Jetis II",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3491672,
+          -7.9281672
+        ]
+      },
+      "id": "way/616862643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616862644",
+        "access:roof": "no",
+        "addr:full": "Jalan Parangtritis Km. 16, Patalan Jetis Bantul Yogyakarta",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "3",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Umum Rachma Husada",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3459035,
+          -7.9321319
+        ]
+      },
+      "id": "way/616862644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616862659",
+        "access:roof": "no",
+        "addr:full": "Sumber, Sumberagung, Jetis, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "poor",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Kesehatan Kartika Medika",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3574265,
+          -7.9110186
+        ]
+      },
+      "id": "way/616862659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/616875049",
+        "access:roof": "no",
+        "addr:full": "Jalan Caturharjo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Puskesmas Pembantu Caturharjo",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2733035,
+          -7.93442
+        ]
+      },
+      "id": "way/616875049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617106547",
+        "access:roof": "no",
+        "addr:full": "Kanggotaan Lor",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Posyandu Kaswari & Posyandu Lansia Wredoraharjo Kanggotaan Lor",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3957036,
+          -7.867002
+        ]
+      },
+      "id": "way/617106547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617109131",
+        "access:roof": "no",
+        "addr:full": "JALAN IMOGIRI",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Shin-she",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3671641,
+          -7.8351235
+        ]
+      },
+      "id": "way/617109131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617111675",
+        "access:roof": "no",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Puskesmas Banguntapan 1",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4139837,
+          -7.8291378
+        ]
+      },
+      "id": "way/617111675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617111680",
+        "access:roof": "no",
+        "addr:full": "Jalan Wiyoro Lor, Baturetno, Banguntapan",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "name": "Posyandu Lansia Larasati & Posyandu Balita Gandaria I",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4139304,
+          -7.8181109
+        ]
+      },
+      "id": "way/617111680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617125340",
+        "access:roof": "no",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "wood",
+        "building:roof": "tile",
+        "building:structure": "wood_frame",
+        "capacity:persons": "100-250",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3010604,
+          -7.9207377
+        ]
+      },
+      "id": "way/617125340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617193448",
+        "access:roof": "no",
+        "addr:full": "Bangen Bangunhiwo,Kasian,Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tin",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Bhakti Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.309376,
+          -7.8472897
+        ]
+      },
+      "id": "way/617193448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/617199607",
+        "access:roof": "no",
+        "addr:full": "Sembungan Bangunjiwo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tin",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Umum",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3349439,
+          -7.8390605
+        ]
+      },
+      "id": "way/617199607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/618206960",
+        "access:roof": "no",
+        "addr:full": "Ngancar RT 1, Bandungan, Karangtalun, Imogiri, Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Klinik Pratama Syiwak",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3812262,
+          -7.9211318
+        ]
+      },
+      "id": "way/618206960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619019065",
+        "addr:full": "Piring, Srihardono, Pundong, Bantul, Daerah Istimewa Yogyakarta 55771",
+        "amenity": "clinic",
+        "name": "Puskesmas Pundong",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3437478,
+          -7.9567669
+        ]
+      },
+      "id": "way/619019065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619118277",
+        "access:roof": "no",
+        "addr:full": "jl samas",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "klinik desa",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.279824,
+          -7.9813538
+        ]
+      },
+      "id": "way/619118277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619125299",
+        "access:roof": "no",
+        "addr:full": "jalan pleret, banguntapan",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:condition": "good",
+        "building:floor": "tekhel",
+        "building:levels": "2",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "250-500",
+        "name": "Rumah Sakit Rajawali Citra",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.410236,
+          -7.848608
+        ]
+      },
+      "id": "way/619125299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620211351",
+        "access:roof": "no",
+        "addr:full": "Jagalan Rw 03",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "wood_frame",
+        "capacity:persons": "<50",
+        "name": "Posyandu Ngesti Yogya Tama",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3955915,
+          -7.8286866
+        ]
+      },
+      "id": "way/620211351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620214935",
+        "access:roof": "no",
+        "addr:full": "Dusun Sampangan Desa Wirokreten",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Posyandu Bougenvile",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3973069,
+          -7.8544692
+        ]
+      },
+      "id": "way/620214935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620313200",
+        "access:roof": "no",
+        "addr:full": "jatimulyo, dlingo",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Pratama Qanta Husada",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4747395,
+          -7.9272092
+        ]
+      },
+      "id": "way/620313200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620576256",
+        "access:roof": "no",
+        "addr:full": "Jl. Sumberan Baru, Soragan, Ngestiharjo, Kasihan, Bantul Regency, Special Region of Yogyakarta 55184",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tin",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "healthcare": "clinic",
+        "name": "Klinik Dokter Ferihana",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3479624,
+          -7.7846176
+        ]
+      },
+      "id": "way/620576256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620576284",
+        "access:roof": "no",
+        "addr:full": "Jl. Soboman No.460, Sanggrahan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+        "addr:housenumber": "460",
+        "addr:street": "Jalan",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "50-100",
+        "name": "Klinik Citra Madina - Pratama dan Persalinan",
+        "operator:type": "private",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3407718,
+          -7.8076979
+        ]
+      },
+      "id": "way/620576284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/620758142",
+        "access:roof": "no",
+        "addr:full": "gegunung tirtohargo kretek Bantul",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "Puskesmas Pembantu Tirtohargo",
+        "operator:type": "government",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2918787,
+          -7.9989306
+        ]
+      },
+      "id": "way/620758142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/621088086",
+        "access:roof": "no",
+        "addr:full": "jalan wates km no.182 sonopakis",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "tile",
+        "building:structure": "steel_frame",
+        "capacity:persons": "50-100",
+        "name": "Gerai Sehat",
+        "operator:type": "community",
+        "source": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3341179,
+          -7.7998789
+        ]
+      },
+      "id": "way/621088086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/722721176",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RS Universitas Islam Indonesia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2960523,
+          -7.909138
+        ]
+      },
+      "id": "way/722721176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/783886543",
+        "addr:city": "Bantul",
+        "addr:full": "Jalan Janti Yogyakarta, Lanud Adisutjipto, Jl. Ringroad Timur, Karang Janbe, Banguntapan, Kec. Banguntapan, Bantul, Daerah Istimewa Yogyakarta 55198",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "RSPAU dr. S. Hardjolukito",
+        "operator:type": "government",
+        "website": "http://www.rspauhardjolukito.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4115033,
+          -7.7974899
+        ]
+      },
+      "id": "way/783886543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1134739784",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Permata Husada",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4082649,
+          -7.8657592
+        ]
+      },
+      "id": "way/1134739784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1338990357",
+        "addr:city": "Bantul",
+        "addr:district": "Pleret",
+        "addr:neighbourhood": "Padukuhan Jati",
+        "addr:province": "Daerah Istimewa Yogyakarta",
+        "addr:street": "Jalan Imogiri Timur",
+        "addr:subdistrict": "Wonokromo",
+        "amenity": "pharmacy",
+        "building": "yes",
+        "check_date": "2024-11-29",
+        "drive_through": "no",
+        "healthcare": "pharmacy",
+        "mobile": "+62 82322062276",
+        "name": "Apotek Andalan Farma",
+        "opening_hours": "07:30-21:30",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.389611,
+          -7.8607775
+        ]
+      },
+      "id": "way/1338990357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1836618291",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Puskesmas Piyungan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4487055,
+          -7.8285417
+        ]
+      },
+      "id": "node/1836618291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2651041094",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Puskesmas Jetis",
+        "operator": "Ministry of Health",
+        "operator:en": "Ministry of Health",
+        "operator:id": "Kementerian Kesehatan",
+        "operator:type": "government",
+        "operator:wikidata": "Q12490745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3491518,
+          -7.9279993
+        ]
+      },
+      "id": "node/2651041094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2651174542",
+        "amenity": "hospital",
+        "name": "Rahma Husada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3460526,
+          -7.9318813
+        ]
+      },
+      "id": "node/2651174542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3522111898",
+        "amenity": "clinic",
+        "description": "kegiatan sebulan sekali pemeriksaan balita dan lansia",
+        "name": "Pos Yandu",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3512195,
+          -7.8158672
+        ]
+      },
+      "id": "node/3522111898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630767261",
+        "amenity": "clinic",
+        "name": "PMI Bantul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332499,
+          -7.8805298
+        ]
+      },
+      "id": "node/3630767261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3630844909",
+        "amenity": "clinic",
+        "name": "Puskesmas Kasihan 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3126085,
+          -7.839136
+        ]
+      },
+      "id": "node/3630844909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3724392322",
+        "amenity": "hospital",
+        "name": "RS Rajawali Citra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4102422,
+          -7.8483302
+        ]
+      },
+      "id": "node/3724392322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5824693118",
+        "amenity": "clinic",
+        "name": "Klinik Sehat Pesantren",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3325605,
+          -7.8314967
+        ]
+      },
+      "id": "node/5824693118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5831350194",
+        "access:roof": "no",
+        "addr:full": "penobatan DK V RT 05 gadingsari",
+        "amenity": "clinic",
+        "building": "clinic",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "<50",
+        "name": "posyandu cempaka sari dan murih sehat",
+        "operator:type": "community",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2567077,
+          -7.9693927
+        ]
+      },
+      "id": "node/5831350194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5831564297",
+        "addr:full": "Nengahan, Trimurti, Srandakan, Bantul",
+        "amenity": "clinic",
+        "name": "Posyandu Kasih Ibu",
+        "operator:type": "community",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2478632,
+          -7.9370168
+        ]
+      },
+      "id": "node/5831564297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5905752287",
+        "amenity": "pharmacy",
+        "brand": "Apotek K-24",
+        "brand:wikidata": "Q56390232",
+        "healthcare": "pharmacy",
+        "name": "Apotek K-24",
+        "name:en": "Apotek K-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3449915,
+          -7.8009275
+        ]
+      },
+      "id": "node/5905752287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7117208213",
+        "amenity": "pharmacy",
+        "description": "24h",
+        "healthcare": "pharmacy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4090442,
+          -7.7984614
+        ]
+      },
+      "id": "node/7117208213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7757234385",
+        "addr:street": "Jalan Monggang",
+        "amenity": "clinic",
+        "name:en": "bidan NY meita s",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3430499,
+          -7.8546655
+        ]
+      },
+      "id": "node/7757234385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9751893607",
+        "amenity": "pharmacy",
+        "name": "Apotek Zakia Farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4781318,
+          -7.8302018
+        ]
+      },
+      "id": "node/9751893607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9811904626",
+        "amenity": "pharmacy",
+        "name": "K-24",
+        "opening_hours": "Mo-Su 07:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3189644,
+          -7.9270917
+        ]
+      },
+      "id": "node/9811904626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10705747215",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rumah Sakit Universitas Islam Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.295898,
+          -7.9091703
+        ]
+      },
+      "id": "node/10705747215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10720341447",
+        "addr:city": "Yogyakarta",
+        "addr:postcode": "55184",
+        "addr:street": "Gg. Nakula, Kalirandu, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul,",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "herbalism;body;aromatherapy;family_medicine;community",
+        "name": "RSH IN CARE (Rumah Sehat Holistik) - Bekam Jogja",
+        "operator": "HIINCARE",
+        "operator:type": "public",
+        "phone": "+6281211595471",
+        "website": "s.id/hiincare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3097744,
+          -7.8387586
+        ]
+      },
+      "id": "node/10720341447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875080903",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "PSIKOLOGI PARADIGMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3431439,
+          -7.8116781
+        ]
+      },
+      "id": "node/11875080903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875158121",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Arkandina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.4017351,
+          -7.8405612
+        ]
+      },
+      "id": "node/11875158121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875177363",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Humaira Consulting (Konsultan Psikologi)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3201938,
+          -7.8102559
+        ]
+      },
+      "id": "node/11875177363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11875182883",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "RUMAH NGOBROL BUNDA WENING"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3895273,
+          -7.8424234
+        ]
+      },
+      "id": "node/11875182883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11919849132",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "PUSKESMAS BANGUNTAPAN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.413987,
+          -7.8291876
+        ]
+      },
+      "id": "node/11919849132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12864489168",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Puskesmas Kretek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3188146,
+          -7.9725058
+        ]
+      },
+      "id": "node/12864489168"
+    }
+  ]
+}
