@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>My Map - Bentala Nusantara</title>
+
+        <style>
+            /* Reset margin dan padding default di seluruh elemen */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            /* Styling body */
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: #f9f9f9;
+                color: #333;
+                line-height: 1.6;
+                padding: 20px;
+                max-width: 960px;
+                margin: auto;
+            }
+
+            /* Styling untuk Navigasi */
+            nav {
+                background-color: #005f73;
+                padding: 15px 20px;
+                border-radius: 8px;
+                text-align: center;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                
+                /* Tambahkan atau modifikasi ini untuk Flexbox */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+                gap: 5px;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: 600;
+                font-size: 1.0rem;
+                transition: color 0.3s ease;
+            }
+
+            nav a:hover {
+                color: #94d2bd;
+            }
+
+            hr {
+                border: none;
+                border-top: 2px solid #94d2bd;
+                margin: 20px 0;
+            }
+
+            h1 {
+                color: #0a9396;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            p {
+                margin-bottom: 15px;
+                font-size: 1.1rem;
+                text-align: center;
+            }
+
+            /* Styling iframe peta agar responsif dan proporsional */
+            iframe {
+                display: block;
+                width: 100%;
+                height: 600px;
+                border: none;
+                border-radius: 8px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                margin: 20px 0;
+            }
+
+            /* Responsif untuk layar kecil */
+            @media (max-width: 768px) {
+                body {
+                    padding: 10px;
+                }
+
+                iframe {
+                    height: 400px; /* ketinggian iframe diperkecil agar muat di layar kecil */
+                }
+
+                nav {
+                    flex-wrap: nowrap;
+                    gap: 15px;
+                }
+                nav a {
+                    font-size: 0.95rem;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Beranda</a> |
+            <a href="map.html">My Map</a> |
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+        <hr>
+        <h1>Map Page</h1>
+        <p>Halaman ini akan menampilkan peta interaktif. Nantikan fitur-fitur menarik di sini!</p>
+        <p>Untuk saat ini, halaman ini berisi Sample Map Interactive.</p>
+
+        <iframe src="Peta Interaktif Kepadatan Penduduk Surabaya.html"
+            width="100%" height="600" frameborder="0" style="border: 0;">
+        </iframe>       
+    </body>
+
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+
+    <head>
+        <meta charset="UTF-8">
+        <!--Mengatur viewport agar responsive pada berbagai perangkat-->
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Beranda - Bentala Nusantara</title>
+
+        <!--Setting CSS Internal-->
+        <style>
+            /* Reset Margin dan Padding default untuk seluruh element*/
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            /* Setting font dasar dan warna background */
+            body {
+                font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: #f9f9f9;
+                color: #333;
+                line-height: 1.6;
+                padding: 20px;
+                max-width: 960px;
+                margin: auto; /* Tengah Halaman */
+            }
+            
+            /* Styling untuk Navigasi */
+            nav {
+                background-color: #005f73;
+                padding: 15px 20px;
+                border-radius: 8px;
+                text-align: center;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                
+                /* Tambahkan atau modifikasi ini untuk Flexbox */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+                gap: 5px;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: 600;
+                font-size: 1.0rem;
+                transition: color 0.3s ease;
+            }
+
+            nav a:hover {
+                color: #94d2bd;
+            }
+
+            /* Garis horizontal styling */
+            hr {
+                border: none;
+                border-top: 2px solid #94d2bd;
+                margin: 20px 0;
+            }
+
+            /* Styling Judul Utama h1 */
+            h1 {
+                color: #0a9396;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            /* Paragraf Utama */
+            p {
+                margin-bottom: 15px;
+                font-size: 1.1rem;
+            }
+
+            /* Memberi jarak pada h2 */
+            h2 {
+                color: #005f73;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                border-bottom: 2px solid #94d2bd;
+                padding-bottom: 5px;
+            }
+
+            /* Styling daftar fitur */
+            ul {
+                list-style-type: square;
+                padding-left: 20px;
+                margin-bottom: 30px;
+            }
+
+            ul li {
+                margin-bottom: 8px;
+                font-weight: 500;
+            }
+
+            /* Styling form komentar */
+            form table {
+                width: 100%;
+                max-width: 600px;
+                margin-bottom: 30px;
+                border-collapse: separate;
+                border-spacing: 0 12px;
+            }
+
+            form label {
+                font-weight: 600;
+                padding-right: 10px;
+                vertical-align: top;
+            }
+
+            form input[type="text"],
+            form input[type="email"],
+            form textarea {
+                width: 100%;
+                padding: 8px 12px;
+                border: 1.5px solid #ccc;
+                border-radius: 6px;
+                font-size: 1rem;
+                transition: border-color 0.3s ease;
+            }
+
+            /* Efek fokus pada input dan text area */
+            form input[type="text"]:focus,
+            form input[type="email"]:focus,
+            form textarea:focus {
+                outline: none;
+                border-color: #0a9396;
+                background-color: #e0f7f5;
+            }
+            
+            /* Styling button submit */
+            form input[type="Submit"] {
+                background-color: #0a9396;
+                color: white;
+                border: none;
+                padding: 12px 20px;
+                border-radius: 8px;
+                font-size: 1.1rem;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                font-weight: 600;
+            }
+
+            /* Efek hover pada tombol submit */
+            form input[type="Submit"]:hover {
+                background-color: #005f73;
+            }
+
+            /* Styling tabel komentar */
+            table[border="1"] {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            table[border="1"] th,
+            table[border="1"] td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: left;
+                vertical-align: top;
+            }
+
+            table[border="1"] thead {
+                background-color: #0a9396;
+                color: white;
+            }
+
+            /* Responsive design untuk layar kecil */
+            @media (max-width: 768px) {
+                body {
+                    padding: 10px;
+                }
+
+                nav {
+                    flex-wrap: nowrap;
+                    gap: 15px;
+                }
+                nav a {
+                    font-size: 0.95rem;
+                }
+
+                form table, table.comment-list {
+                    font-size: 0.9rem;
+                }
+                form textarea {
+                    font-size: 1rem;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <!--Navigasi -> Tautan ke halaman lain-->
+        <nav>
+            <a href="index.html">Beranda</a> |
+            <a href="map.html">My Map</a> |
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+
+        <!--Garis pemisah-->
+        <hr>
+
+        <!--Judul utama halaman-->
+        <h1>Selamat Datang di Bentala Nusantara!</h1>
+
+        <!--Deskripsi singkat-->
+        <p>Situs ini didedikasikan untuk menjelajahi konsep dan aplikasi <strong>WebGIS</strong> (Geographic Information System berbasis Web).</p>
+        <p>WebGIS memungkinkan kita untuk memvisualisasikan, menganalisis, dan berbagi data geografis melalui internet, membuka kemungkinan baru dalam manajemen data spasial dan pengambilan keputusan.</p>
+        <p>Nantikan update mengenai proyek-proyek menarik dan eksplorasi lebih lanjut tentang teknologi pemetaan web interaktif!</p>
+
+        <!--Spasi-->
+        </br>
+
+        <!--Heading 2-->
+        <h2>Fitur Utama</h2>
+
+        <!--Daftar dengan bullet square-->
+        <ul>
+            <li>Pemetaan Interaktif</li>
+            <li>Database Geospasial</li>
+            <li>Integrasi Data dari Berbagai Sumber</li>
+        </ul>
+
+        <!--Garis pemisah-->
+        <hr>
+
+        <!--Judul section komentar-->
+        <h2>Comment</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama:</label></td>
+                    <td><input type="text" id="nama" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="komentar">Komentar:</label></td>
+                    <td><textarea id="komentar" name="komentar" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+
+        <!--Daftar komentar yang sudah ditambahkan-->
+        <h2>Comment List</h2>
+        <table border="1" style="width:100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Komentar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Contoh komentar -->
+                <tr>
+                    <td>Budi</td>
+                    <td>budi@example.com</td>
+                    <td>Portfolionya sangat menarik dan informatif!</td>
+                </tr>
+                <tr>
+                    <td>Ani</td>
+                    <td>ani@example.com</td>
+                    <td>Sangat membantu memahami WebGIS. Lanjutkan!</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+
+</html>
