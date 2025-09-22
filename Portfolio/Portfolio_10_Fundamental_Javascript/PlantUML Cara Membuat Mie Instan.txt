@@ -1,0 +1,10 @@
+@startuml
+start
+:Ambil satu bungkus mie instan;
+:Rebus air sampai mendidih;
+:Masukkan mie ke dalam air mendidih;
+:Masak selama 3 menit;
+:Tiriskan air;
+:Tambahkan bumbu dan aduk rata;
+stop
+@enduml

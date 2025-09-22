@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nilai Ujian</title>
+</head>
+<body>
+  <h2>Masukkan Nilai Ujian Siswa</h2>
+  <input type="number" id="nilai" placeholder="Masukkan nilai" />
+  <button onclick="cekKelulusan()">Cek Kelulusan</button>
+  <p id="hasil"></p>
+
+  <script>
+    function cekKelulusan() {
+      const nilai = parseInt(document.getElementById('nilai').value);
+      let hasil = '';
+
+      if (nilai >= 60) {
+        hasil = 'LULUS';
+      } else {
+        hasil = 'TIDAK LULUS';
+      }
+      
+      document.getElementById('hasil').textContent = hasil;
+    }
+  </script>
+</body>
+</html>
