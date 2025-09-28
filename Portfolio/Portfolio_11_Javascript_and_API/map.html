@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - Bentala Nusantara</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode:"class",
+            theme: {
+                extend: {
+                    colors: {
+                        'nav-bg': '#005f73',
+                        'heading-primary': '#0a9396',
+                        'heading-secondary': '#005f73',
+                        'border-accent': '#94d2bd',
+                        'input-focus': '#0a9396',
+                        'button-primary': '#0a9396',
+                        'button-hover': '#005f73',
+                        'table-header': '#0a9396',
+                        'table-border': '#ccc',
+                        'white': '#f9f9f9',
+                        'text-primary': '#333',
+                    },
+                    borderWidth: {
+                        '1.5': '1.5px',
+                    },
+                    fontSize: {
+                        '1.1rem': '1.1rem',
+                        '0.95rem': '0.95rem',
+                    },
+                },
+            },
+        };
+    </script>
+
+    <style>
+        @media nav{}.list-square {
+            list-style-type: square;
+        }
+
+        /* Tambahan styling toggle switch untuk dark mode */
+        .toggle-switch {
+            width: 50px;
+            height: 20px;
+            background: #f0f0f0;
+            border-radius: 30px;
+            position: relative;
+            top: 2.5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggle-switch.dark {
+            background: #222;
+        }
+
+        .toggle-ball {
+            width: 17px;
+            height: 17px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 1.5px;
+            left: 2px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+
+        .toggle-switch.dark .toggle-ball {
+            transform: translateX(30px);
+            background: #333;
+        }
+
+        .toggle-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 12px;
+            fill: #f39c12;
+            pointer-events: none;
+        }
+
+        .icon-sun {
+            left: 6px;
+            fill: #f39c12;
+        }
+
+        .icon-moon {
+            right: 6px;
+            fill: #f1c40f;
+        }
+    </style>
+</head>
+
+<body class="dark:bg-black bg-white font-sans text-text-primary dark:text-white leading-1.6 p-6 max-w-5xl mx-auto">
+
+    <!-- Navigation Bar -->
+    <nav class="flex bg-nav-bg p-2 rounded-lg text-center shadow-md justify-center items-center flex-wrap gap-4">
+        <a href="index.html" class="text-white font-semibold text-base transition-colors hover:text-border-accent">Beranda</a>
+        <span class="text-white select-none">|</span>
+        <a href="map.html" class="text-white font-semibold text-base transition-colors hover:text-border-accent">My Map</a>
+        <span class="text-white select-none">|</span>
+        <a href="portfolio.html" class="text-white font-semibold text-base transition-colors hover:text-border-accent">Portfolio</a>
+        <span class="text-white select-none">|</span>
+        
+        <div id="themeToggle" class="toggle-switch" role="switch" aria-checked="false" tabindex="0" onclick="toggleTheme()" onkeypress="if(event.key==='Enter'){toggleTheme();}">
+            <svg class="toggle-icon icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="5"/>
+                <g stroke="#f39c12" stroke-width="2">
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </g>
+            </svg>
+            <svg class="toggle-icon icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M21 12.79A9 9 0 0111.21 3 7 7 0 1012 21a9 9 0 009-8.21z"/>
+            </svg>
+            <div class="toggle-ball"></div>
+        </div>
+    </nav>
+
+    <hr class="border-t-2 border-border-accent my-5" />
+
+
+    <h1 class="text-heading-primary text-3xl font-bold text-center mb-4">Map Page</h1>
+    <p class="text-center mb-3 text-lg">Halaman ini akan menampilkan peta interaktif. Nantikan fitur-fitur menarik di sini!</p>
+    <p class="text-center mb-6 text-lg">Untuk saat ini, halaman ini berisi Sample Map Interactive.</p>
+
+    <div class="flex overflow-hidden rounded-lg shadow-lg mb-12">
+      <iframe src="Peta Interaktif Kepadatan Penduduk Surabaya.html" width="100%" height="600" class="border-0" loading="lazy"
+        title="Peta Interaktif Kepadatan Penduduk Surabaya"></iframe>
+    </div>
+
+    <footer class="text-center mt-10 text-gray-600 text-sm">
+        <p>&copy; 2025 Bentala Nusantara. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Fungsi untuk mengatur toggle switch sesuai tema
+        function updateToggleSwitch(isDark) {
+            const toggle = document.getElementById("themeToggle");
+            if (isDark) {
+                toggle.classList.add("dark");
+                toggle.setAttribute("aria-checked", "true");
+            } else {
+                toggle.classList.remove("dark");
+                toggle.setAttribute("aria-checked", "false");
+            }
+        }
+
+        // Load tema dari localStorage atau preferensi OS, dan update toggle switch
+        function loadTheme() {
+            const savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "dark") {
+                document.documentElement.classList.add("dark");
+                updateToggleSwitch(true);
+            } else if (savedTheme === "light") {
+                document.documentElement.classList.remove("dark");
+                updateToggleSwitch(false);
+            } else {
+                // Cek preferensi sistem user default
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.classList.add("dark");
+                    updateToggleSwitch(true);
+                    localStorage.setItem("theme", "dark"); 
+                } else {
+                    document.documentElement.classList.remove("dark");
+                    updateToggleSwitch(false);
+                    localStorage.setItem("theme", "light");
+                }
+            }
+        }
+
+        // Fungsi toggle theme dan simpan di localStorage
+        function toggleTheme() {
+            const htmlElement = document.documentElement;
+            const toggleSwitch = document.getElementById('themeToggle');
+            if (htmlElement.classList.contains('dark')) {
+                htmlElement.classList.remove('dark');
+                toggleSwitch.classList.remove('dark');
+                toggleSwitch.setAttribute('aria-checked', 'false');
+                localStorage.setItem('theme', 'light');
+            } else {
+                htmlElement.classList.add('dark');
+                toggleSwitch.classList.add('dark');
+                toggleSwitch.setAttribute('aria-checked', 'true');
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // set default theme dan toggle sesuai saved preference
+        function initializeTheme() {
+            const storedTheme = localStorage.getItem('theme');
+            const htmlElement = document.documentElement;
+            const toggleSwitch = document.getElementById('themeToggle');
+            if (storedTheme === 'dark') {
+                htmlElement.classList.add('dark');
+                toggleSwitch.classList.add('dark');
+                toggleSwitch.setAttribute('aria-checked', 'true');
+            } else {
+                // Default theme adalah light
+                htmlElement.classList.remove('dark');
+                toggleSwitch.classList.remove('dark');
+                toggleSwitch.setAttribute('aria-checked', 'false');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeTheme);
+    </script>
+</body>
+
+</html>
