@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Animation</title>
+</head>
+<body style="margin: 0;">
+    <canvas id="mycanvas"></canvas>
+
+    <script>
+        const mycanvas = document.getElementById('mycanvas');
+
+        mycanvas.width = window.innerWidth;
+        mycanvas.height = window.innerHeight;
+
+        const c = mycanvas.getContext("2d");
+
+        let x = 100;
+        let speedX = 5;
+        let y = 100;
+        let speedY = 5;
+
+        function draw(){
+            window.requestAnimationFrame(draw);
+            c.clearRect(0, 0 , innerWidth, innerHeight);
+
+            c.fillStyle = "yellow";
+            c.strokeStyle = "green";
+            c.lineWidth = "5";
+
+            c.beginPath();
+            c.arc(x, y, 50, 0, 2 * Math.PI);
+            c.closePath();
+            c.fill();
+            c.stroke();
+
+            if(x + 50 > innerWidth || x - 50 < 0){
+                speedX = -speedX;
+            }
+
+            if(y + 50 > innerWidth || y - 50 < 0){
+                speedY = -speedY;
+            }
+
+            x += speedX;
+            y += speedY;
+        }
+
+        draw();
+
+    </script>
+</body>
+</html>

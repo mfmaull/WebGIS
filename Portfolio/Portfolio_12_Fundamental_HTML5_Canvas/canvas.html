@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Canvas</title>
+</head>
+<body style="margin: 0;">
+    <canvas id="mycanvas"></canvas>
+
+    <script>
+        const mycanvas = document.getElementById('mycanvas');
+
+        mycanvas.width = window.innerWidth;
+        mycanvas.height = window.innerHeight;
+
+        const c = mycanvas.getContext("2d");
+
+        //c.fillRect(100,100,100,100);
+
+        c.fillStyle = "yellow";
+        c.strokeStyle = "green";
+        c.lineWidth = "5";
+
+        c.rect(30, 30, 100, 100);
+        c.fill();
+        c.stroke();
+
+        c.arc(200, 200, 50, 0, 2 * Math.PI);
+        c.fill();
+        c.stroke();
+
+        c.beginPath();
+        c.moveTo(150, 50);
+        c.lineTo(200, 150);
+        c.lineTo(100, 150);
+        c.closePath();
+        c.fill();
+        c.stroke();
+
+    </script>
+</body>
+</html>
