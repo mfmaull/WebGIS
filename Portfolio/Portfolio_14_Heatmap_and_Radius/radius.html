@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffer Radius with Turf.js</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Maplibre via CDN -->
+    <script src="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.js"></script>
+    <link
+        href="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.css"
+        rel="stylesheet"
+    />
+    
+    <!-- Turf.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div id="map" class="h-screen w-screen"></div>
+
+    <script>
+        const MAP_SERVICE_KEY = "68da7e8806823ed3f510cc50";
+        const DEFAULT_THEME = "basic";
+        const map = new maplibregl.Map({
+            style: `https://basemap.mapid.io/styles/${DEFAULT_THEME}/style.json?key=${MAP_SERVICE_KEY}`,
+            center: [107.60591544951035, -6.92156370573727],
+            zoom: 12,
+            pitch: 0,
+            bearing: 0,
+            container: "map",
+            canvasContextAttributes: { antialias: true },
+            attributionControl: true,
+            hash: true,
+        });
+
+        // Tambahkan kontrol zoom
+        const navControl = new maplibregl.NavigationControl();
+        map.addControl(navControl, 'top-right');
+
+        // Pusat titik (centroid) yang ingin di-buffer
+        const pointFeature = {
+            type: "Feature",
+            properties: { value: 1 },
+            geometry: {
+                type: "Point",
+                coordinates: [107.60591544951035, -6.92156370573727]
+            }
+        };
+
+        map.on("load", function () {
+            console.log("Map Loaded!");
+
+            // 1. Tambahkan source titik asli (centoid)
+            map.addSource("point-source", {
+                type: "geojson",
+                data: pointFeature
+            });
+
+            // 2. Tambahkan layer titik di peta (titik merah kecil)
+            map.addLayer({
+                id: "layer-point",
+                type: "circle",
+                source: "point-source",
+                paint: {
+                    "circle-color": "blue",
+                    "circle-radius": 5,
+                    "circle-opacity": 0.8
+                }
+            }, "place_village");
+
+            // 3. Buat buffer radius menggunakan Turf.js (500 meter)
+            const bufferedPolygon = turf.buffer(
+                pointFeature,
+                10000, // radius dalam meter
+                { units: "meters",
+                  steps: 128
+                }
+            );
+
+            // 4. Tambahkan hasil buffer sebagai source baru
+            map.addSource("buffer-source", {
+                type: "geojson",
+                data: bufferedPolygon
+            });
+
+            // 5. Tambahkan layer buffer (polygon transparan)
+            map.addLayer({
+                id: "layer-buffer",
+                type: "fill",
+                source: "buffer-source",
+                paint: {
+                    "fill-color": "#0066ff",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#0033cc"
+                }
+            }, "place_village");
+
+            // 6. Tambahkan border (stroke) untuk lebih jelas
+            map.addLayer({
+                id: "layer-buffer-outline",
+                type: "line",
+                source: "buffer-source",
+                paint: {
+                    "line-color": "#0033cc",
+                    "line-width": 2
+                }
+            }, "place_village");
+        });
+    </script>
+</body>
+</html>

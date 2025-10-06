@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar WebGIS</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!--Maplibre via CDN-->
+    <script src="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.js"></script>
+    <link
+        href="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div id="map" class="h-screen w-screen"></div>
+
+    <script>
+        const MAP_SERVICE_KEY = "68da7e8806823ed3f510cc50";
+        const DEFAULT_THEME = "street-new-generation";
+        //const DEFAULT_THEME = "basic";
+        const map = new maplibregl.Map({
+            style: `https://basemap.mapid.io/styles/${DEFAULT_THEME}/style.json?key=${MAP_SERVICE_KEY}`,
+            center: [106.82717425766694, -6.175403054116954],
+            zoom: 12, //0 - 22 level
+            pitch: 0,
+            bearing: 0,
+            container: "map",
+            canvasContextAttributes: { antialias: true },
+            attributionControl: true,
+        });
+
+        // Add zoom control to the map
+        const navControl = new maplibregl.NavigationControl();
+        map.addControl(navControl, 'top-right');
+
+        map.on("load", function() {
+            console.log("Map Loaded!");
+
+            // Menambahkan source dan layer dari geojsonPolygon statis Anda
+            map.addSource("data-kota-jakarta", {
+                type: "geojson",
+                data: "https://geoserver.mapid.io/layers_new/get_layer?api_key=b79dbb1727c346dd953307ca0423d7e0&layer_id=68dfbfed2cfbb145893da080&project_id=68da810c32f5e9f00e28f6a1"
+            });
+
+            map.addLayer({
+                id: "layer-data-kota-jakarta",
+                type: "circle",
+                source: "data-kota-jakarta",
+                paint: {
+                    "circle-color": [
+                    "coalesce",        // Cari nilai pertama yang tidak null
+                    ["get", "Colour"], // Coba ambil nilai dari field "Colour"
+                    "#34656D"             // Jika tidak ada, gunakan warna pink sebagai default
+                    ],
+                    "circle-radius": 10
+                }
+            }, "place_village"); // "place_village" sebagai layer di bawahnya
+        });        
+    </script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Buffer: Click or Input</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Maplibre via CDN -->
+    <script src="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.js"></script>
+    <link
+        href="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.css"
+        rel="stylesheet"
+    />
+    
+    <!-- Turf.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+</head>
+<body class="bg-gray-100 p-4 font-sans">
+
+    <!-- Kontrol Form (di kiri bawah) -->
+    <div class="fixed bottom-6 left-6 bg-white p-5 rounded-lg shadow-lg w-80 z-10 border border-gray-200">
+        <h3 class="font-bold text-lg text-gray-800 mb-4">🔧 Atur Buffer</h3>
+
+        <!-- Latitude & Longitude -->
+        <div class="mb-3">
+            <label class="block text-sm font-medium text-gray-700">Longitude</label>
+            <input type="text" id="longitude" 
+                   value="107.60591544951035" 
+                   class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+
+        <div class="mb-3">
+            <label class="block text-sm font-medium text-gray-700">Latitude</label>
+            <input type="text" id="latitude" 
+                   value="-6.92156370573727" 
+                   class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+
+        <!-- Radius (meter) -->
+        <div class="mb-3">
+            <label class="block text-sm font-medium text-gray-700">Radius (meter)</label>
+            <input type="number" id="radius" 
+                   value="10000" 
+                   min="1" 
+                   class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+
+        <!-- Tombol Update -->
+        <button id="update-buffer" 
+                class="w-full mt-4 bg-blue-600 text-white font-medium py-2 px-4 rounded-md hover:bg-blue-700 transition duration-200 shadow">
+            🔄 Update Buffer
+        </button>
+
+        <!-- Info: Klik di peta untuk pilih lokasi -->
+        <p class="mt-4 text-xs text-gray-500">
+            💡 Klik di peta untuk mengatur posisi titik
+        </p>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map" class="h-screen w-screen"></div>
+
+    <script>
+        const MAP_SERVICE_KEY = "68da7e8806823ed3f510cc50";
+        const DEFAULT_THEME = "basic";
+
+        const map = new maplibregl.Map({
+            style: `https://basemap.mapid.io/styles/${DEFAULT_THEME}/style.json?key=${MAP_SERVICE_KEY}`,
+            center: [107.60591544951035, -6.92156370573727],
+            zoom: 12,
+            pitch: 0,
+            bearing: 0,
+            container: "map",
+            canvasContextAttributes: { antialias: true },
+            attributionControl: true,
+            hash: true,
+        });
+
+        // Tambahkan kontrol zoom
+        const navControl = new maplibregl.NavigationControl();
+        map.addControl(navControl, 'top-right');
+
+        // Variabel global: Titik pusat buffer
+        let pointFeature = {
+            type: "Feature",
+            properties: { value: 1 },
+            geometry: {
+                type: "Point",
+                coordinates: [107.60591544951035, -6.92156370573727]
+            }
+        };
+
+        // Fungsi untuk mengupdate buffer
+        function updateBuffer() {
+            const lon = parseFloat(document.getElementById("longitude").value);
+            const lat = parseFloat(document.getElementById("latitude").value);
+            const radius = parseFloat(document.getElementById("radius").value);
+
+            // Validasi input
+            if (isNaN(lon) || isNaN(lat) || isNaN(radius) || radius <= 0) {
+                alert("Silakan masukkan nilai valid: lon, lat, dan radius > 0");
+                return;
+            }
+
+            // Update titik pusat
+            pointFeature.geometry.coordinates = [lon, lat];
+
+            // Buat buffer baru dengan Turf.js
+            const bufferedPolygon = turf.buffer(
+                pointFeature,
+                radius,
+                { units: "meters", steps: 128 }
+            );
+
+            // Update source dan layer
+            map.getSource("point-source").setData(pointFeature);
+            map.getSource("buffer-source").setData(bufferedPolygon);
+        }
+
+        // Event: Tombol "Update Buffer"
+        document.getElementById("update-buffer").addEventListener("click", updateBuffer);
+
+        // Event: Klik di peta
+        map.on("click", function(e) {
+            const lon = e.lngLat.lng;
+            const lat = e.lngLat.lat;
+
+            // Update input form
+            document.getElementById("longitude").value = lon.toFixed(8);
+            document.getElementById("latitude").value = lat.toFixed(8);
+
+            // Update titik dan buffer
+            pointFeature.geometry.coordinates = [lon, lat];
+            updateBuffer();
+        });
+
+        // Event: Map Loaded
+        map.on("load", function () {
+            console.log("Map Loaded!");
+
+            // 1. Tambahkan source titik asli
+            map.addSource("point-source", {
+                type: "geojson",
+                data: pointFeature
+            });
+
+            // 2. Tambahkan layer titik (titik biru)
+            map.addLayer({
+                id: "layer-point",
+                type: "circle",
+                source: "point-source",
+                paint: {
+                    "circle-color": "blue",
+                    "circle-radius": 6,
+                    "circle-opacity": 0.8
+                }
+            }, "place_village");
+
+            // 3. Buat buffer pertama kali
+            const initialBuffer = turf.buffer(
+                pointFeature,
+                10000,
+                { units: "meters", steps: 128 }
+            );
+
+            // 4. Tambahkan source buffer
+            map.addSource("buffer-source", {
+                type: "geojson",
+                data: initialBuffer
+            });
+
+            // 5. Tambahkan layer buffer (fill)
+            map.addLayer({
+                id: "layer-buffer",
+                type: "fill",
+                source: "buffer-source",
+                paint: {
+                    "fill-color": "#0066ff",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#0033cc"
+                }
+            }, "place_village");
+
+            // 6. Tambahkan border (stroke)
+            map.addLayer({
+                id: "layer-buffer-outline",
+                type: "line",
+                source: "buffer-source",
+                paint: {
+                    "line-color": "#0033cc",
+                    "line-width": 2
+                }
+            }, "place_village");
+        });
+    </script>
+</body>
+</html>
