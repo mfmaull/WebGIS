@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar WebGIS</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!--Maplibre via CDN-->
+    <script src="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.js"></script>
+    <link
+        href="https://unpkg.com/maplibre-gl@^5.7.3/dist/maplibre-gl.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div id="map" class="h-screen w-screen"></div>
+
+    <script>
+        const MAP_SERVICE_KEY = "68da7e8806823ed3f510cc50";
+        const DEFAULT_THEME = "street-new-generation";
+        const map = new maplibregl.Map({
+            style: `https://basemap.mapid.io/styles/${DEFAULT_THEME}/style.json?key=${MAP_SERVICE_KEY}`,
+            center: [106.82717425766694, -6.175403054116954],
+            zoom: 15.5, //0 - 22 level
+            pitch: 60,
+            bearing: 0,
+            container: "map",
+            canvasContextAttributes: { antialias: true },
+            attributionControl: true,
+        });
+
+        // Add zoom control to the map
+        const navControl = new maplibregl.NavigationControl();
+        map.addControl(navControl, 'top-right');
+
+        // GeoJSON poligon
+        const geojsonPolygon = {
+            "type":"FeatureCollection",
+            "features":[{
+                "type":"Feature",
+                "geometry":{"coordinates":[
+                    [
+                        [106.81812707654626,
+                        -6.1797112609828275],
+
+                        [106.82060104322761,
+                        -6.175618994910508],
+
+                        [106.82262713663499,
+                        -6.175597791376148],
+
+                        [106.82249917284105,
+                        -6.180538191731145],
+
+                        [106.82060104322761,
+                        -6.180580598401889],
+                
+                        [106.81812707654626,
+                        -6.1797112609828275]
+                    ]
+                ],
+                "type":"Polygon"},
+                "properties":{}
+            }]
+        };
+
+        map.on("load", function() {
+            console.log("Map Loaded!");
+
+            // Menambahkan source dan layer dari geojsonPolygon statis Anda
+            map.addSource("polygon-jakarta-static", {
+                type: "geojson",
+                data: geojsonPolygon
+            });
+
+            map.addLayer({
+                id: "polygon-layer-jakarta-static",
+                type: "fill",
+                source: "polygon-jakarta-static",
+                paint: {
+                    "fill-color": "red",
+                    "fill-opacity": 0.6
+                }
+            }, "park"); // "park" sebagai layer di bawahnya
+
+            map.addLayer({
+                id: "line-layer-jakarta-static",
+                type: "line",
+                source: "polygon-jakarta-static",
+                paint: {
+                    "line-width": 4,
+                    "line-color": "blue"
+                }
+            })
+
+
+            const url = "https://geoserver.mapid.io/layers_new/get_layer?api_key=b79dbb1727c346dd953307ca0423d7e0&layer_id=68da8d0a2cfbb14589086b29&project_id=68da810c32f5e9f00e28f6a1"
+            fetch(url).then(response => {
+                if (!response.ok) { // Cek apakah respons sukses (status 200)
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(geojsonData => {
+                console.log("Data dari API:", geojsonData);
+
+                // Tambahkan source baru untuk data dari API
+                map.addSource("polygon-api", {
+                    type: "geojson",
+                    data: geojsonData
+                });
+
+                // Tambahkan layer baru untuk data dari API
+                map.addLayer({
+                    id: "polygon-layer-api",
+                    type: "fill",
+                    source: "polygon-api",
+                    paint: {
+                        "fill-color": "green",
+                        "fill-opacity": 0.7
+                    }
+                }, "polygon-layer-jakarta-static");
+
+                map.addLayer({
+                    id: "line-layer-api",
+                    type: "line",
+                    source: "polygon-api",
+                    paint: {
+                        "line-width": 2,
+                        "line-color": "yellow"
+                    }
+                });
+
+            })
+            .catch(error => { // Tangani error jika fetch gagal
+                console.error("Ada masalah dengan operasi fetch:", error);
+            });
+        });        
+    </script>
+</body>
+</html>
