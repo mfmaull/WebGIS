@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - Bentala Nusantara</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode:"class",
+            theme: {
+                extend: {
+                    colors: {
+                        'nav-bg': '#005f73',
+                        'heading-primary': '#0a9396',
+                        'heading-secondary': '#005f73',
+                        'border-accent': '#94d2bd',
+                        'input-focus': '#0a9396',
+                        'button-primary': '#0a9396',
+                        'button-hover': '#005f73',
+                        'table-header': '#0a9396',
+                        'table-border': '#ccc',
+                        'white': '#f9f9f9',
+                        'text-primary': '#333',
+                    },
+                    borderWidth: {
+                        '1.5': '1.5px',
+                    },
+                    fontSize: {
+                        '1.1rem': '1.1rem',
+                        '0.95rem': '0.95rem',
+                    },
+                },
+            },
+        };
+    </script>
+
+    <style>
+        @media nav{}.list-square {
+            list-style-type: square;
+        }
+
+        /* Tambahan styling toggle switch untuk dark mode */
+        .toggle-switch {
+            width: 50px;
+            height: 20px;
+            background: #f0f0f0;
+            border-radius: 30px;
+            position: relative;
+            top: 2.5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .toggle-switch.dark {
+            background: #222;
+        }
+
+        .toggle-ball {
+            width: 17px;
+            height: 17px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 1.5px;
+            left: 2px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+
+        .toggle-switch.dark .toggle-ball {
+            transform: translateX(30px);
+            background: #333;
+        }
+
+        .toggle-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 12px;
+            fill: #f39c12;
+            pointer-events: none;
+        }
+
+        .icon-sun {
+            left: 6px;
+            fill: #f39c12;
+        }
+
+        .icon-moon {
+            right: 6px;
+            fill: #f1c40f;
+        }
+    </style>
+</head>
+
+<body class="dark:bg-black bg-white font-sans text-text-primary dark:text-white leading-1.6 p-6 max-w-5xl mx-auto">
+
+    <!-- Navigation Bar -->
+    <nav class="flex bg-nav-bg p-2 rounded-lg text-center shadow-md justify-center items-center flex-wrap gap-4">
+        <a href="index.html" class="text-white font-semibold text-base transition-colors hover:text-border-accent">Beranda</a>
+        <span class="text-white select-none">|</span>
+        <a href="new_map.html" class="text-white font-semibold text-base transition-colors hover:text-border-accent">My Map</a>
+        <span class="text-white select-none">|</span>
+        <a href="portfolio.html" class="text-white font-semibold text-base transition-colors hover:text-border-accent">Portfolio</a>
+        <span class="text-white select-none">|</span>
+        
+        <div id="themeToggle" class="toggle-switch" role="switch" aria-checked="false" tabindex="0" onclick="toggleTheme()" onkeypress="if(event.key==='Enter'){toggleTheme();}">
+            <svg class="toggle-icon icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="5"/>
+                <g stroke="#f39c12" stroke-width="2">
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </g>
+            </svg>
+            <svg class="toggle-icon icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M21 12.79A9 9 0 0111.21 3 7 7 0 1012 21a9 9 0 009-8.21z"/>
+            </svg>
+            <div class="toggle-ball"></div>
+        </div>
+    </nav>
+
+    <hr class="border-t-2 border-border-accent my-5" />
+
+    <h1 class="text-heading-primary text-3xl font-bold text-center mb-8">My Portfolio</h1>
+
+    <section class="mb-10">
+        <h2 class="text-heading-secondary text-2xl font-semibold mt-8 mb-4 border-b-2 border-border-accent pb-2">Educational Background</h2>
+        <ul class="list-square pl-6 space-y-1 mb-8">
+            <li>Sarjana Fisika (Geofisika), UIN Sunan Kalijaga Yogyakarta (2018-2022)</li>
+            <li>Advanced WebGIS Online Course, MAPID Academy (2025)</li>
+        </ul>
+    </section>
+
+    <section class="mb-10">
+        <h2 class="text-heading-secondary text-2xl font-semibold mt-8 mb-4 border-b-2 border-border-accent pb-2">Career Background</h2>
+        <ul class="list-square pl-6 space-y-1 mb-8">
+            <li>Surveyor and Analyst, BMKG Project Based (2020-2023)</li>
+            <li>Business Analyst, PT. Praisindo Teknologi (2023-present)</li>
+        </ul>
+    </section>
+
+    <section>
+    <h2 class="text-heading-secondary text-2xl font-semibold mb-6 border-b-2 border-border-accent pb-2">List of Portfolio</h2>
+
+    <div class="flex space-x-6 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-gray-400">
+        <!-- Portfolio Card 1 -->
+        <div class="flex flex-col min-w-[280px] max-w-[480px] bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105 flex-shrink-0">
+            <img src="./Wonogiri Hyperlocal Analysis.png" alt="Hyperlocal Analysis for Trans Surakarta Bus Stop" class="w-full h-44 object-cover rounded-t-xl" />
+            <div class="flex flex-col flex-grow p-6">
+                <h3 class="text-xl font-bold mb-2 text-heading-primary">Hyperlocal Analysis for Trans Surakarta Bus Stop</h3>
+                <p class="text-text-primary mb-3">
+                Analisis daerah potensial untuk pembangunan Halte atau Terminal Trans-Surakarta dengan <strong>Analisis Kepadatan Penduduk dan Analisis Hiperlokal</strong>.
+                </p>
+                <a href="https://github.com/mfmaull/WebGIS/blob/main/Portfolio/Portfolio_3_Location_Analytics_and_Hyperlocal_Analysis/MF%20Maulana_Kajian%20Strategis%20Pengembangan%20Terminal%20Trans%20Surakarta%20untuk%20Mendukung%20Mobilitas%20Kabupaten%20Wonogiri.pdf"
+                target="_blank" class="mt-auto self-start inline-block bg-button-primary hover:bg-button-hover text-white py-2 px-4 rounded transition-colors">Klik Disini</a>
+            </div>
+        </div>
+
+        <!-- Portfolio Card 2 -->
+        <div class="flex flex-col min-w-[280px] max-w-[480px] bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105 flex-shrink-0">
+            <img src="./New CineMAX.png" alt="Location Analytics for New CineMAX" class="w-full h-44 object-cover rounded-t-xl" />
+            <div class="flex flex-col flex-grow p-6">
+                <h3 class="text-xl font-bold mb-2 text-heading-primary">Location Analytics for New CineMAX</h3>
+                <p class="text-text-primary mb-3">
+                Rekomendasi lokasi pembangunan CineMax berdasarkan <strong>Analisis Sosial Ekonomi, Kepadatan Penduduk, dan Aspek Mobilitas</strong>.
+                </p>
+                <a href="https://github.com/mfmaull/WebGIS/blob/main/Portfolio/Portfolio_2_Location_Analytics/MF%20Maulana_Location_Analytics_New_CineMAX.pdf"
+                target="_blank" class="mt-auto self-start inline-block bg-button-primary hover:bg-button-hover text-white py-2 px-4 rounded transition-colors">Klik Disini</a>
+            </div>
+        </div>
+
+        <!-- Portfolio Card 3 -->
+        <div class="flex flex-col min-w-[280px] max-w-[480px] bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105 flex-shrink-0">
+            <img src="./Shelter Evakuasi Gempa.png" alt="Location Analytics for Earthquake Shelter" class="w-full h-44 object-cover rounded-t-xl" />
+            <div class="flex flex-col flex-grow p-6">
+                <h3 class="text-xl font-bold mb-2 text-heading-primary">Location Analytics for Earthquake Shelter</h3>
+                <p class="text-text-primary mb-3">
+                Analisis potensi kebencanaan, jalur risiko, dengan <strong>Analisis Kepadatan Penduduk, Luas Jalan, Dampak Kegempaan</strong>.
+                </p>
+                <a href="https://github.com/mfmaull/WebGIS/blob/main/Portfolio/Portfolio_1_GIS_Fundamental_and_Location_Analytics/MF%20Maulana_Analisis%20Jalur%20Evakuasi%20Bencana%20Gempa%20Bumi%20Area%20Bantul.pdf"
+                target="_blank" class="mt-auto self-start inline-block bg-button-primary hover:bg-button-hover text-white py-2 px-4 rounded transition-colors">Klik Disini</a>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- Separator -->
+    <hr class="border-t-2 border-border-accent my-5" />
+
+    <!-- Comment Section -->
+    <section>
+        <h2 class="text-2xl font-bold text-heading-secondary mb-4">Comment</h2>
+        <form id=form class="max-w-xl">
+            <table class="w-full border-collapse space-y-3">
+                <tr>
+                    <td class="font-semibold pr-3 vertical-align-top"><label for="nama">Nama:</label></td>
+                    <td><input type="text" id="nama" name="nama" required class="w-full p-3 ml-10 border-1.5 border-table-border rounded-md text-lg focus:border-input-focus focus:ring-2 focus:ring-input-focus/50 transition-colors" /></td>
+                </tr>
+                <tr>
+                    <td class="font-semibold pr-3 vertical-align-top"><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required class="w-full p-3 ml-10 border-1.5 border-table-border rounded-md text-lg focus:border-input-focus focus:ring-2 focus:ring-input-focus/50 transition-colors" /></td>
+                </tr>
+                <tr>
+                    <td class="font-semibold pr-3 vertical-align-top"><label for="komentar">Komentar:</label></td>
+                    <td><textarea id="komentar" name="komentar" rows="4" cols="50" class="w-full p-3 ml-10 border-1.5 border-table-border rounded-md text-lg focus:border-input-focus focus:ring-2 focus:ring-input-focus/50 transition-colors"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="bg-button-primary text-white font-semibold py-1 px-6 rounded-lg text-lg hover:bg-button-hover transition-colors cursor-pointer">
+                            Submit
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <hr class="border-t-2 border-border-accent my-6" />
+
+    <!-- Comment List -->
+    <section>
+        <h2 class="text-2xl font-bold text-heading-secondary mt-8 mb-4">Comment List</h2>
+        <table border="1" class="w-full border-collapse table-auto">
+            <thead class="bg-table-header text-white">
+                <tr>
+                    <th class="border border-table-border px-4 py-2">Nama</th>
+                    <th class="border border-table-border px-4 py-2">Email</th>
+                    <th class="border border-table-border px-4 py-2">Komentar</th>
+                </tr>
+            </thead>
+            <tbody id="commentsTableBody" class="text-sm"></tbody>
+        </table>
+        <div id="paginationContainer" class="mt-4 flex items-center justify-center"></div>
+    </section>
+
+    <footer class="text-center mt-10 text-gray-600 text-sm">
+        <p>&copy; 2025 Bentala Nusantara. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Fungsi untuk mengatur toggle switch sesuai tema
+        function updateToggleSwitch(isDark) {
+            const toggle = document.getElementById("themeToggle");
+            if (isDark) {
+                toggle.classList.add("dark");
+                toggle.setAttribute("aria-checked", "true");
+            } else {
+                toggle.classList.remove("dark");
+                toggle.setAttribute("aria-checked", "false");
+            }
+        }
+
+        // Load tema dari localStorage atau preferensi OS, dan update toggle switch
+        function loadTheme() {
+            const savedTheme = localStorage.getItem("theme");
+            if (savedTheme === "dark") {
+                document.documentElement.classList.add("dark");
+                updateToggleSwitch(true);
+            } else if (savedTheme === "light") {
+                document.documentElement.classList.remove("dark");
+                updateToggleSwitch(false);
+            } else {
+                // Cek preferensi sistem user default
+                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.classList.add("dark");
+                    updateToggleSwitch(true);
+                    localStorage.setItem("theme", "dark"); 
+                } else {
+                    document.documentElement.classList.remove("dark");
+                    updateToggleSwitch(false);
+                    localStorage.setItem("theme", "light");
+                }
+            }
+        }
+
+        // Fungsi toggle theme dan simpan di localStorage
+        function toggleTheme() {
+            const htmlElement = document.documentElement;
+            const toggleSwitch = document.getElementById('themeToggle');
+            if (htmlElement.classList.contains('dark')) {
+                htmlElement.classList.remove('dark');
+                toggleSwitch.classList.remove('dark');
+                toggleSwitch.setAttribute('aria-checked', 'false');
+                localStorage.setItem('theme', 'light');
+            } else {
+                htmlElement.classList.add('dark');
+                toggleSwitch.classList.add('dark');
+                toggleSwitch.setAttribute('aria-checked', 'true');
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // set default theme dan toggle sesuai saved preference
+        function initializeTheme() {
+            const storedTheme = localStorage.getItem('theme');
+            const htmlElement = document.documentElement;
+            const toggleSwitch = document.getElementById('themeToggle');
+            if (storedTheme === 'dark') {
+                htmlElement.classList.add('dark');
+                toggleSwitch.classList.add('dark');
+                toggleSwitch.setAttribute('aria-checked', 'true');
+            } else {
+                // Default theme adalah light
+                htmlElement.classList.remove('dark');
+                toggleSwitch.classList.remove('dark');
+                toggleSwitch.setAttribute('aria-checked', 'false');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initializeTheme);
+    </script>
+
+    <script>
+        const API_ENDPOINT = "https://68d145ade6c0cbeb39a42e48.mockapi.io/webgis/saran/v1/";
+
+        let currentPage = 1;
+        let rowsPerPage = 5;
+
+        async function getData() {
+            try {
+                const response = await fetch(API_ENDPOINT + "?sortBy=id&order=desc");
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                const data = await response.json();
+                renderTable(data);
+                renderPagination(data.length);
+            } catch (error) {
+                console.error("Gagal mengambil data:", error);
+                document.getElementById("commentsTableBody").innerHTML = `
+                <tr>
+                    <td colspan="3" class="text-center py-4 text-red-500">Gagal memuat komentar.</td>
+                </tr>`;
+            }
+        }
+
+        function renderTable(data) {
+            const commentsTableBody = document.getElementById("commentsTableBody");
+            commentsTableBody.innerHTML = '';
+
+            const start = (currentPage - 1) * rowsPerPage;
+            const end = start + rowsPerPage;
+            const pageData = data.slice(start, end);
+
+            if (pageData.length === 0) {
+                commentsTableBody.innerHTML = `
+                <tr>
+                    <td colspan="3" class="text-center py-4 text-gray-500">Belum ada komentar.</td>
+                </tr>`;
+                return;
+            }
+
+            pageData.forEach(comment => {
+                const row = document.createElement('tr');
+                row.classList.add("hover:bg-gray-50", "border-b", "border-gray-200");
+                row.innerHTML = `
+                    <td class="py-3 px-6">${comment.name}</td>
+                    <td class="py-3 px-6">${comment.email}</td>
+                    <td class="py-3 px-6">${comment.kritik_saran}</td>
+                `;
+                commentsTableBody.appendChild(row);
+            });
+        }
+
+        function renderPagination(totalRows) {
+            const paginationContainer = document.getElementById("paginationContainer");
+            paginationContainer.innerHTML = '';
+
+            const totalPages = Math.ceil(totalRows / rowsPerPage);
+
+            // Dropdown pilihan rows per page
+            const perPageSelect = document.createElement('select');
+            perPageSelect.classList.add('border', 'rounded', 'p-1', 'mr-4');
+
+            [5, 10, 15, 20].forEach(num => {
+                const option = document.createElement('option');
+                option.value = num;
+                option.textContent = `${num} rows per page`;
+                if (num === rowsPerPage) option.selected = true;
+                perPageSelect.appendChild(option);
+            });
+
+            perPageSelect.onchange = () => {
+                rowsPerPage = parseInt(perPageSelect.value);
+                currentPage = 1;
+                getData();
+            };
+
+            paginationContainer.appendChild(perPageSelect);
+
+            // Tombol halaman
+            for (let i = 1; i <= totalPages; i++) {
+                const btn = document.createElement('button');
+                btn.textContent = i;
+                btn.classList.add('mx-1', 'px-3', 'py-1', 'rounded', 'hover:bg-nav-bg', 'hover:text-white', 'transition-colors');
+                if (i === currentPage) {
+                    btn.classList.add('bg-nav-bg', 'text-white', 'font-bold');
+                }
+                btn.onclick = () => {
+                    currentPage = i;
+                    getData();
+                };
+                paginationContainer.appendChild(btn);
+            }
+        }
+
+
+        async function postSaran(name, email, kritik_saran) {
+            try {
+                const response = await fetch(API_ENDPOINT, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ name, email, kritik_saran }),
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(`Gagal mengirim data: ${response.status} - ${JSON.stringify(errorData)}`);
+                }
+
+                alert("Data Berhasil Tersubmit!");
+                document.getElementById("nama").value = '';
+                document.getElementById("email").value = '';
+                document.getElementById("komentar").value = '';
+
+            } catch (error) {
+                console.error("Kesalahan pengiriman data:", error);
+                alert("Gagal mengirim data. Silakan coba lagi.");
+            }
+        }
+
+        async function onSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("nama").value;
+            const email = document.getElementById("email").value;
+            const kritik_saran = document.getElementById("komentar").value;
+
+            if (name.length > 0 && email.length > 0 && kritik_saran.length > 0) {
+                await postSaran(name, email, kritik_saran);
+                await getData();
+            } else {
+                alert("Data Wajib Diisi");
+            }
+        }
+
+        document.getElementById("form").addEventListener("submit", onSubmit);
+
+        document.addEventListener("DOMContentLoaded", getData);
+    </script>
+
+</body>
+
+</html>
